@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  min-height: 100%;
+  background: white;
+  text-align: left;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.toggleButton {
+  text-align: right;
+  width: 100%;
+}
+
+.categoryHeader {
+  width: 100%;
+}
+
+col.itemTitle {
+  width: 52%;
+}
+
+col.itemCheckbox {
+  width: 12%;
+}
+
+col.itemAcquisition {
+  width: 12%;
+}
+
+td.itemCheckbox ,th.itemCheckbox {
+  text-align: center;
+}
+
+span.itemDetail {
+  float: right;
+}
+
+span.tooltip {
+  color: #888;
+}
+
+button.showHide {
+  background-color: transparent;
+  text-decoration: underline;
+  border: none;
+  cursor: pointer;
+}
+
+button.showHide {
+  outline: none;
+}
+
+i.alert {
+  color: red;
+}
